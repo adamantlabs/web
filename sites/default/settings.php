@@ -201,6 +201,16 @@
  * @endcode
  */
 $databases = array();
+$databases['default']['default'] = array(
+    'driver' => 'mysql',
+    'database' => 'db_250be90f',
+    'username' => 'user_250be90f',
+    'password' => '6te8oDeX5&P-P1',
+    'host' => 'a.db.shared.orchestra.io',
+    'prefix' => '',
+    'collation' => 'utf8_general_ci',
+);
+
 
 /**
  * Access control for update.php script.
