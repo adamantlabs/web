@@ -324,6 +324,7 @@ function system_requirements($phase) {
 
   $error = '';
   // For installer, create the directories if possible.
+  /* 
   foreach ($directories as $directory) {
     if (!$directory) {
       continue;
@@ -366,6 +367,7 @@ function system_requirements($phase) {
       }
     }
   }
+*/
 
   // See if updates are available in update.php.
   if ($phase == 'runtime') {
