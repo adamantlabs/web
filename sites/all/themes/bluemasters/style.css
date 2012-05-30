@@ -467,7 +467,7 @@ font-size: 1.7em; padding: 10px; border-radius: 0 0 3px 0; -moz-border-radius: 0
 /*
  * Credits
  */
-.credits-container { height: auto; margin: 0 auto; padding: 0; width: 950px; }
+.credits-container { height: auto; margin: 0 auto; padding: 0; width: 950px; text-align: center;}
 
 .credits-container a { text-decoration: underline; }
 
