@@ -12,7 +12,7 @@
         <div id="header-top-inside-left-feed">
             <div id="topSocial">
             <ul>									
-                <li><a class="twitter" href="http://twitter.com/morethanthemes" title="Follow Us on Twitter!"></a></li>
+                <li><a class="twitter" href="http://twitter.com/adamantlabs" title="Follow Us on Twitter!"></a></li>
 <?php
 /*
                 <li><a class="facebook" href="http://www.facebook.com/pages/More-than-just-themes/194842423863081" title="Join Us on Facebook!"></a></li>a
@@ -47,10 +47,13 @@
             
             <?php if ($site_name || $site_slogan): ?>
             <div class="clearfix">
+<?php
+/*
 				<?php if ($site_name): ?>
                 <span id="site-name"><a href="<?php print check_url($front_page); ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a></span>
                 <?php endif; ?>
-                
+*/
+?>
                 <?php if ($site_slogan): ?>
                 <span id="slogan"><?php print $site_slogan; ?></span>
                 <?php endif; ?>
@@ -167,7 +170,7 @@
     	<div id="footer-bottom-inside-right">
 		<?php print theme('links__system_secondary_menu', array('links' => $secondary_menu, 'attributes' => array('id' => 'secondary-menu', 'class' => array('links', 'inline', 'clearfix')))); ?>
     	</div>
-    	<div class="credits-container" style="clear:both; padding-top:12px;">Copyright &copy <?php print(Date("Y")); ?><?php print($site_name); ?></div>     
+    	<div class="credits-container" style="clear:both; padding-top:12px;">Copyright &copy <?php print(Date("Y")); ?> <?php print($site_name); ?></div>     
     </div>
 </div>
 <!--EOF:footer-bottom-->
