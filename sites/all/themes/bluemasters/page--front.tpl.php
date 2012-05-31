@@ -47,9 +47,13 @@
             
             <?php if ($site_name || $site_slogan): ?>
             <div class="clearfix">
-				<?php if ($site_name): ?>
+<?php
+/*
+		<?php if ($site_name): ?>
                 <span id="site-name"><a href="<?php print check_url($front_page); ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a></span>
                 <?php endif; ?>
+*/
+?>
                 
                 <?php if ($site_slogan): ?>
                 <span id="slogan"><?php print $site_slogan; ?></span>
@@ -148,7 +152,7 @@
     	<div id="footer-bottom-inside-right">
 		<?php print theme('links__system_secondary_menu', array('links' => $secondary_menu, 'attributes' => array('id' => 'secondary-menu', 'class' => array('links', 'inline', 'clearfix')))); ?>
     	</div>
-    	<div class="credits-container" style="clear:both; padding-top:12px;">Copyright &copy <?php print(Date("Y")); ?><?php print $site_name; ?></div>     
+    	<div class="credits-container" style="clear:both; padding-top:12px;">Copyright &copy <?php print(Date("Y")); ?> <?php print $site_name; ?></div>     
     </div>
 </div>
 <!--EOF:footer-bottom-->
