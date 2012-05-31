@@ -70,7 +70,8 @@
         </div><!--EOF:navigation-->
        
     </div><!--EOF:header-->
-
+<?php
+/*
     <div id="banner">
     <?php print render($page['banner']); ?>
     
@@ -95,7 +96,8 @@
             </div>
         </div>
     </div><!--EOF:banner-->
-
+*/
+?>
     <div id="home-blocks-area" class="clearfix">
     
 		<?php if ($messages): ?>
