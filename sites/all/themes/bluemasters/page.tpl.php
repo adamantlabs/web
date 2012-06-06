@@ -36,7 +36,6 @@
 
     <!--header-->
     <div id="header" class="clearfix">
-        <?php print $breadcrumb; ?> 	
         <!--logo-floater-->
         <div id="logo-floater"> 
 			<?php if ($logo): ?>
@@ -59,6 +58,7 @@
                 <?php endif; ?>
             </div>
             <?php endif; ?>
+           <span id="breadcrumb"><?php print $breadcrumb; ?></span>
         </div> <!--EOF:logo-floater-->
         
         <!--navigation-->
