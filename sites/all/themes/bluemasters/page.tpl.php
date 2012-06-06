@@ -36,7 +36,7 @@
 
     <!--header-->
     <div id="header" class="clearfix">
-    	
+        <?php print $breadcrumb; ?> 	
         <!--logo-floater-->
         <div id="logo-floater"> 
 			<?php if ($logo): ?>
