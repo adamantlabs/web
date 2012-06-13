@@ -454,6 +454,7 @@ function mailchimp_lists_auth_newsletter_form(&$form, $list, $account) {
   );
 
   // add the title and description to freeform lists
+   /*
   if ($list->list_type == MAILCHIMP_LISTTYPE_FREEFORM) {
     $form[$wrapper_key]['title'] = array(
       '#type' => 'item',
@@ -461,6 +462,7 @@ function mailchimp_lists_auth_newsletter_form(&$form, $list, $account) {
       '#description' => t('@mc_list_description', array('@mc_list_description' => $list->description)),
     );
   }
+  */
 
   $form[$wrapper_key]['list'] = array('#type' => 'value', '#value' => $list);
 
