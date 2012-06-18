@@ -203,10 +203,11 @@
 $databases = array();
 $databases['default']['default'] = array(
     'driver' => 'mysql',
-    'database' => 'db_250be90f',
-    'username' => 'user_250be90f',
-    'password' => '6te8oDeX5&P-P1',
-    'host' => 'a.db.shared.orchestra.io',
+    'database' => $_SERVER['DB1_NAME'],
+    'username' => $_SERVER['DB1_USER'],
+    'password' => $_SERVER['DB1_PASS'],
+    'host' => $_SERVER['DB1_HOST'],
+    'port' => $_SERVER['DB1_PORT'],
     'prefix' => '',
     'collation' => 'utf8_general_ci',
 );
