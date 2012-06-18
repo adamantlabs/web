@@ -13,6 +13,7 @@ web1: #component type & number
     - pdo_mysql
     - mcrypt
     - mbstring
+    - curl
     - eaccelerator #recommended, but optional
   db1: #component type & number
     name: drupal-db #component settings
